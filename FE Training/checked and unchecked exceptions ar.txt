@@ -1,0 +1,40 @@
+
+errors n exceptions
+types of exception
+try catch finally
+throw vs throws
+throw 2 exceptions
+exception throwing without code
+arithmetic
+nullpointer
+interfaces and why its used
+define one interface and use it
+collections ……prog
+
+create another class inside basic package called course details and store list of the student detilas inside it 
+diplay complete student info 
+write one method for this other than psvm
+
+getter and setter for parent name
+see what access modifiers should be used
+
+create 3 extra classes
+AccessSamePackage
+create one obj for studentsdetails and print all fields
+
+create package called com.intermediate
+create another class called
+AccesDifferentPackage
+
+"
+
+create another class in intermediate
+create class StudentDetaildInherited
+create obj of tht class and print all fields 
+
+"
+print everything
+
+
+
+

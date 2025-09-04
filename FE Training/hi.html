@@ -1,0 +1,39 @@
+<html>
+  <head>
+    <title>my program</title>
+  </head>
+  <body>
+    <h1 class="title">Hello World! </h1>
+    
+    <script>
+      document.getElementById("myButton").onclick = function() {
+        alert("Thank you! Submitted successfully.");
+        window.location.href = "page2.html"; // Redirect to page2.html
+      }
+    </script>
+
+    <h1 style="text-align: center;">Personal information <br></h1>
+
+    <h2>Name:</h2>
+    <input type="text" placeholder="Enter your name"/>
+    <br>
+
+    <h2>DOB :</h2>
+    <input type="date" min="2000-01-01" max="2026-12-31"/>
+    <br>
+
+    <h2>College :</h2>
+    <select id="college" name="selected_college">
+      <optgroup label="vtu">
+        <option value="rnsit">RNSIT</option>
+        <option value="sjbit">SJBIT</option>
+      </optgroup>
+      <optgroup label="autonomous">
+        <option value="dsu">DSU</option>
+        <option value="bgs">BGS</option>
+      </optgroup>
+    </select>
+    <br><br>
+    <button id="myButton">Submit</button>
+  </body>
+</html>

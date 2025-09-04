@@ -1,0 +1,19 @@
+body{
+        font-family: Arial, sans-serif;
+        background-color: white;
+        color: blueviolet;
+    }
+
+    h1{
+        color: navy;
+        text-align: center;
+    }
+
+    p{
+        line-height: 1.6;
+    }
+
+    .highlight{
+        color: orange;
+        font-weight: bold;
+    }

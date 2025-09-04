@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Click & Key Event Demo</title>
+<style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+    }
+    .log {
+      margin-top: 20px;
+      background: #f0f0f0;
+      padding: 10px;
+      height: 150px;
+      overflow-y: auto;
+      border: 1px solid #ccc;
+    }
+</style>
+</head>
+<body>
+<h1>Event Listener Demo</h1>
+<p>Click anywhere or press any key to see the logs below:</p>
+ 
+  <div id="logContainer" class="log"></div>
+ 
+  <script>
+    const logContainer = document.getElementById('logContainer');
+ 
+    function logMessage(message) {
+      const newLog = document.createElement('div');
+      newLog.textContent = message;
+      logContainer.appendChild(newLog);
+    }
+ 
+    document.addEventListener('click', function () {
+      logMessage('A click occurred anywhere on the document!');
+    });
+ 
+    document.addEventListener('keydown', function (event) {
+      logMessage(`Key pressed: ${event.key}`);
+    });
+</script>
+</body>
+</html>

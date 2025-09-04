@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Register & Login</title>
+</head>
+  <body>
+  <h2>Login</h2>
+  <br>
+    <input id="username" placeholder="Username" required>
+    <input id="password" type="password" placeholder="Password" required>
+    <br>
+    <button onclick ="login()">Login</button>
+  <button onclick ="register()">New user? Register</button>
+  <script>
+    function login() {
+      const username = document.getElementById("username").value;
+
+      if (localStorage.getItem(username)) {
+        alert("Login successful!");
+      } else {
+        alert("Please register first!");
+      }
+    }
+
+    function register() {
+      const username = document.getElementById("username").value;
+
+      if (localStorage.getItem(username)) {
+        alert(" Username already exists!");
+      } else {
+        localStorage.setItem(username, "registered");
+        alert(" Registered successfully!");
+      }
+    }
+  </script>
+  </body>
+</html>

@@ -1,0 +1,44 @@
+java latest version 21
+eclipse ide
+ides
+what is a class 
+structure
+methods, constructors, garbage collectors ,finalise ,with few methods where it must interact with each other with primitive types 
+operators
+
+jvm 
+jdk
+jre
+development kit
+.java and .class diff
+
+wrapper class
+caps is class
+why wrapper is reqd bcoz of its helper methods
+
+string is a class
+why?
+
+helper methods
+string builder 
+string buffer
+
+update excel sheet
+
+diff bw overloading and overriding 
+
+basics of java string
+
+complexities - order of n
+
+len methods of length
+size 
+
+
+a program with catch and finally block. prints one msg inside it 
+
+limitations of array
+
+declaration and limitations of arrays
+
+appending string and concatenation to it

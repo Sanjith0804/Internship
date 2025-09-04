@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset="utf-8">
+    <title> Main Page </title>
+    <style>
+  body {
+    font: Arial;
+    background-color: brown;
+    text-align: center;
+    padding: 50px;
+  }
+  h1 {
+    color: darkblue;
+  }
+  </style>
+    </head>
+    <body>
+  <h1 id="welcome">Welcome To Our Website</h1>
+  <br>
+  <button onclick="logout()">Logout</button>
+
+  <script>
+    const username = localStorage.getItem("currentUser");
+
+    if (username) {
+      document.getElementById("welcome").textContent =
+        "Welcome To Our Website, " + username;
+    }
+
+    function logout(){
+        window.location.href="login.html"
+    }
+  </script>
+</body>
+</html>

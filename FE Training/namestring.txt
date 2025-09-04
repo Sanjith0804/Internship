@@ -1,0 +1,20 @@
+name:string
+usn:int
+dob: string
+sem: int
+parents name : string
+dept : string
+sgpa:float
+cgpa : float
+phone : long 
+wap to create this by taking input for each from the user and then displaying back to the user in the form of an array, use access modifiers !!
+class with proper structure use constructors, types of constructors, this keyword...….
+
+for each loop inside the list of obj
+
+
+use only wrapper classes 
+use proper naming conventions --
+type casting
+auto type promotion
+why do we need it and how to use it

@@ -1,0 +1,4 @@
+to do
+install vs code 
+html basics
+css styling - inline,external
